@@ -1,4 +1,6 @@
-# React + Vite
+# tk-policy-sandbox
+
+React + Vite sandbox for Turnkey policy experimentation.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
