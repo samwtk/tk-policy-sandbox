@@ -2295,8 +2295,11 @@ export default function TurnkeyPolicySandbox() {
         }}
       >
         <div style={{ display: "flex", alignItems: "center", gap: "10px", minWidth: 0 }}>
-          <div style={{ width: 8, height: 8, borderRadius: "50%", background: "#6366f1", boxShadow: "0 0 8px #6366f1" }} />
-          <span style={{ fontWeight: 700, fontSize: "13px", letterSpacing: "0.05em" }}>TURNKEY</span>
+          <img
+            src={`${import.meta.env.BASE_URL}turnkey-logo.png`}
+            alt="Turnkey"
+            style={{ height: 22, width: "auto", display: "block" }}
+          />
           <span style={{ fontSize: "11px", color: "#64748b" }}>Policy Sandbox</span>
         </div>
         <div style={{ display: "flex", gap: "6px", alignItems: "center", minWidth: 0, marginLeft: "auto" }}>
